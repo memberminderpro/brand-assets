@@ -1,0 +1,834 @@
+
+:root {
+/* === MemberMinder Pro Brand Colors === */
+
+/* ============================================
+MMP LOGO BLUE - Complete Shade System
+============================================ */
+
+/* MMP Blue - Main */
+--mmp-blue: #1e224e;
+--mmp-blue-hex: #1e224e;
+--mmp-blue-hsl: 235 44% 21%;
+--mmp-blue-h: 235;
+--mmp-blue-s: 44%;
+--mmp-blue-l: 21%;
+--mmp-blue-rgb: 30 34 78;
+--mmp-blue-r: 30;
+--mmp-blue-g: 34;
+--mmp-blue-b: 78;
+
+/* MMP Blue - Ultra Light */
+--mmp-blue-ultra-light: hsl(235, 44%, 95%);
+--mmp-blue-ultra-light-hex: #eff0f7;
+--mmp-blue-ultra-light-hsl: 235 44% 95%;
+--mmp-blue-ultra-light-h: 235;
+--mmp-blue-ultra-light-s: 44%;
+--mmp-blue-ultra-light-l: 95%;
+
+/* MMP Blue - Light */
+--mmp-blue-light: hsl(235, 44%, 85%);
+--mmp-blue-light-hex: #cfd2e6;
+--mmp-blue-light-hsl: 235 44% 85%;
+--mmp-blue-light-h: 235;
+--mmp-blue-light-s: 44%;
+--mmp-blue-light-l: 85%;
+
+/* MMP Blue - Semi Light */
+--mmp-blue-semi-light: hsl(235, 44%, 55%);
+--mmp-blue-semi-light-hex: #6a72b0;
+--mmp-blue-semi-light-hsl: 235 44% 55%;
+--mmp-blue-semi-light-h: 235;
+--mmp-blue-semi-light-s: 44%;
+--mmp-blue-semi-light-l: 55%;
+
+/* MMP Blue - Semi Dark */
+--mmp-blue-semi-dark: hsl(235, 44%, 15%);
+--mmp-blue-semi-dark-hex: #151737;
+--mmp-blue-semi-dark-hsl: 235 44% 15%;
+--mmp-blue-semi-dark-h: 235;
+--mmp-blue-semi-dark-s: 44%;
+--mmp-blue-semi-dark-l: 15%;
+
+/* MMP Blue - Dark */
+--mmp-blue-dark: hsl(235, 44%, 10%);
+--mmp-blue-dark-hex: #0e1025;
+--mmp-blue-dark-hsl: 235 44% 10%;
+--mmp-blue-dark-h: 235;
+--mmp-blue-dark-s: 44%;
+--mmp-blue-dark-l: 10%;
+
+/* MMP Blue - Ultra Dark */
+--mmp-blue-ultra-dark: hsl(235, 44%, 5%);
+--mmp-blue-ultra-dark-hex: #070812;
+--mmp-blue-ultra-dark-hsl: 235 44% 5%;
+--mmp-blue-ultra-dark-h: 235;
+--mmp-blue-ultra-dark-s: 44%;
+--mmp-blue-ultra-dark-l: 5%;
+
+/* MMP Blue - Hover */
+--mmp-blue-hover: hsl(235, 44%, 16%);
+--mmp-blue-hover-hex: #171a39;
+--mmp-blue-hover-hsl: 235 44% 16%;
+--mmp-blue-hover-h: 235;
+--mmp-blue-hover-s: 44%;
+--mmp-blue-hover-l: 16%;
+
+
+/* ============================================
+MMP LOGO RED - Complete Shade System
+============================================ */
+
+/* MMP Red - Main */
+--mmp-red: #841c30;
+--mmp-red-hex: #841c30;
+--mmp-red-hsl: 350 65% 31%;
+--mmp-red-h: 350;
+--mmp-red-s: 65%;
+--mmp-red-l: 31%;
+--mmp-red-rgb: 132 28 48;
+--mmp-red-r: 132;
+--mmp-red-g: 28;
+--mmp-red-b: 48;
+
+/* MMP Red - Ultra Light */
+--mmp-red-ultra-light: hsl(350, 65%, 95%);
+--mmp-red-ultra-light-hex: #fce9ed;
+--mmp-red-ultra-light-hsl: 350 65% 95%;
+--mmp-red-ultra-light-h: 350;
+--mmp-red-ultra-light-s: 65%;
+--mmp-red-ultra-light-l: 95%;
+
+/* MMP Red - Light */
+--mmp-red-light: hsl(350, 65%, 85%);
+--mmp-red-light-hex: #f3bcc9;
+--mmp-red-light-hsl: 350 65% 85%;
+--mmp-red-light-h: 350;
+--mmp-red-light-s: 65%;
+--mmp-red-light-l: 85%;
+
+/* MMP Red - Semi Light */
+--mmp-red-semi-light: hsl(350, 65%, 60%);
+--mmp-red-semi-light-hex: #db4d6b;
+--mmp-red-semi-light-hsl: 350 65% 60%;
+--mmp-red-semi-light-h: 350;
+--mmp-red-semi-light-s: 65%;
+--mmp-red-semi-light-l: 60%;
+
+/* MMP Red - Semi Dark */
+--mmp-red-semi-dark: hsl(350, 65%, 22%);
+--mmp-red-semi-dark-hex: #5d1423;
+--mmp-red-semi-dark-hsl: 350 65% 22%;
+--mmp-red-semi-dark-h: 350;
+--mmp-red-semi-dark-s: 65%;
+--mmp-red-semi-dark-l: 22%;
+
+/* MMP Red - Dark */
+--mmp-red-dark: hsl(350, 65%, 15%);
+--mmp-red-dark-hex: #3f0e18;
+--mmp-red-dark-hsl: 350 65% 15%;
+--mmp-red-dark-h: 350;
+--mmp-red-dark-s: 65%;
+--mmp-red-dark-l: 15%;
+
+/* MMP Red - Ultra Dark */
+--mmp-red-ultra-dark: hsl(350, 65%, 8%);
+--mmp-red-ultra-dark-hex: #22070c;
+--mmp-red-ultra-dark-hsl: 350 65% 8%;
+--mmp-red-ultra-dark-h: 350;
+--mmp-red-ultra-dark-s: 65%;
+--mmp-red-ultra-dark-l: 8%;
+
+/* MMP Red - Hover */
+--mmp-red-hover: hsl(350, 65%, 26%);
+--mmp-red-hover-hex: #6f1728;
+--mmp-red-hover-hsl: 350 65% 26%;
+--mmp-red-hover-h: 350;
+--mmp-red-hover-s: 65%;
+--mmp-red-hover-l: 26%;
+
+/* ============================================
+MMP UI BLUE - Complete Shade System (Primary)
+============================================ */
+
+/* MMP UI Blue - Main */
+--mmp-ui-blue: #8dafd3;
+--mmp-ui-blue-hex: #8dafd3;
+--mmp-ui-blue-hsl: 206 47% 69%;
+--mmp-ui-blue-h: 206;
+--mmp-ui-blue-s: 47%;
+--mmp-ui-blue-l: 69%;
+--mmp-ui-blue-rgb: 141 175 211;
+--mmp-ui-blue-r: 141;
+--mmp-ui-blue-g: 175;
+--mmp-ui-blue-b: 211;
+
+/* MMP UI Blue - Ultra Light */
+--mmp-ui-blue-ultra-light: hsl(210, 100%, 94%);
+--mmp-ui-blue-ultra-light-hex: #e1f0ff;
+--mmp-ui-blue-ultra-light-hsl: 210 100% 94%;
+--mmp-ui-blue-ultra-light-h: 210;
+--mmp-ui-blue-ultra-light-s: 100%;
+--mmp-ui-blue-ultra-light-l: 94%;
+
+/* MMP UI Blue - Light */
+--mmp-ui-blue-light: hsl(209, 86%, 83%);
+--mmp-ui-blue-light-hex: #afd2f7;
+--mmp-ui-blue-light-hsl: 209 86% 83%;
+--mmp-ui-blue-light-h: 209;
+--mmp-ui-blue-light-s: 86%;
+--mmp-ui-blue-light-l: 83%;
+
+/* MMP UI Blue - Semi Light */
+--mmp-ui-blue-semi-light: hsl(210, 31%, 58%);
+--mmp-ui-blue-semi-light-hex: #7293b5;
+--mmp-ui-blue-semi-light-hsl: 210 31% 58%;
+--mmp-ui-blue-semi-light-h: 210;
+--mmp-ui-blue-semi-light-s: 31%;
+--mmp-ui-blue-semi-light-l: 58%;
+
+/* MMP UI Blue - Semi Dark */
+--mmp-ui-blue-semi-dark: hsl(210, 50%, 24%);
+--mmp-ui-blue-semi-dark-hex: #1e3c5b;
+--mmp-ui-blue-semi-dark-hsl: 210 50% 24%;
+--mmp-ui-blue-semi-dark-h: 210;
+--mmp-ui-blue-semi-dark-s: 50%;
+--mmp-ui-blue-semi-dark-l: 24%;
+
+/* MMP UI Blue - Dark */
+--mmp-ui-blue-dark: hsl(208, 88%, 13%);
+--mmp-ui-blue-dark-hex: #04233f;
+--mmp-ui-blue-dark-hsl: 208 88% 13%;
+--mmp-ui-blue-dark-h: 208;
+--mmp-ui-blue-dark-s: 88%;
+--mmp-ui-blue-dark-l: 13%;
+
+/* MMP UI Blue - Ultra Dark */
+--mmp-ui-blue-ultra-dark: hsl(227, 100%, 3%);
+--mmp-ui-blue-ultra-dark-hex: #00030e;
+--mmp-ui-blue-ultra-dark-hsl: 227 100% 3%;
+--mmp-ui-blue-ultra-dark-h: 227;
+--mmp-ui-blue-ultra-dark-s: 100%;
+--mmp-ui-blue-ultra-dark-l: 3%;
+
+/* MMP UI Blue - Hover */
+--mmp-ui-blue-hover: hsl(209, 86%, 83%);
+--mmp-ui-blue-hover-hex: #b0d3f8;
+--mmp-ui-blue-hover-hsl: 209 86% 83%;
+--mmp-ui-blue-hover-h: 209;
+--mmp-ui-blue-hover-s: 86%;
+--mmp-ui-blue-hover-l: 83%;
+
+/* ============================================
+MMP UI GOLD - Complete Shade System (Secondary)
+============================================ */
+
+/* MMP Gold - Main */
+--mmp-gold: #c9a967;
+--mmp-gold-hex: #c9a967;
+--mmp-gold-hsl: 40 48% 60%;
+--mmp-gold-h: 40;
+--mmp-gold-s: 48%;
+--mmp-gold-l: 60%;
+--mmp-gold-rgb: 201 169 103;
+--mmp-gold-r: 201;
+--mmp-gold-g: 169;
+--mmp-gold-b: 103;
+
+/* MMP Gold - Ultra Light */
+--mmp-gold-ultra-light: hsl(43, 100%, 87%);
+--mmp-gold-ultra-light-hex: #ffecbe;
+--mmp-gold-ultra-light-hsl: 43 100% 87%;
+--mmp-gold-ultra-light-h: 43;
+--mmp-gold-ultra-light-s: 100%;
+--mmp-gold-ultra-light-l: 87%;
+
+/* MMP Gold - Light */
+--mmp-gold-light: hsl(40, 70%, 72%);
+--mmp-gold-light-hex: #eac986;
+--mmp-gold-light-hsl: 40 70% 72%;
+--mmp-gold-light-h: 40;
+--mmp-gold-light-s: 70%;
+--mmp-gold-light-l: 72%;
+
+/* MMP Gold - Semi Light */
+--mmp-gold-semi-light: hsl(40, 41%, 48%);
+--mmp-gold-semi-light-hex: #aa8a48;
+--mmp-gold-semi-light-hsl: 40 41% 48%;
+--mmp-gold-semi-light-h: 40;
+--mmp-gold-semi-light-s: 41%;
+--mmp-gold-semi-light-l: 48%;
+
+/* MMP Gold - Semi Dark */
+--mmp-gold-semi-dark: hsl(42, 100%, 15%);
+--mmp-gold-semi-dark-hex: #4e3600;
+--mmp-gold-semi-dark-hsl: 42 100% 15%;
+--mmp-gold-semi-dark-h: 42;
+--mmp-gold-semi-dark-s: 100%;
+--mmp-gold-semi-dark-l: 15%;
+
+/* MMP Gold - Dark */
+--mmp-gold-dark: hsl(38, 100%, 9%);
+--mmp-gold-dark-hex: #2f1e00;
+--mmp-gold-dark-hsl: 38 100% 9%;
+--mmp-gold-dark-h: 38;
+--mmp-gold-dark-s: 100%;
+--mmp-gold-dark-l: 9%;
+
+/* MMP Gold - Ultra Dark */
+--mmp-gold-ultra-dark: hsl(30, 100%, 1%);
+--mmp-gold-ultra-dark-hex: #060300;
+--mmp-gold-ultra-dark-hsl: 30 100% 1%;
+--mmp-gold-ultra-dark-h: 30;
+--mmp-gold-ultra-dark-s: 100%;
+--mmp-gold-ultra-dark-l: 1%;
+
+/* MMP Gold - Hover */
+--mmp-gold-hover: hsl(40, 75%, 74%);
+--mmp-gold-hover-hex: #eecd8a;
+--mmp-gold-hover-hsl: 40 75% 74%;
+--mmp-gold-hover-h: 40;
+--mmp-gold-hover-s: 75%;
+--mmp-gold-hover-l: 74%;
+
+/* ============================================
+MMP UI GREEN - Complete Shade System (Tertiary)
+============================================ */
+
+/* MMP UI Green - Main */
+--mmp-ui-green: #7a9d8e;
+--mmp-ui-green-hex: #7a9d8e;
+--mmp-ui-green-hsl: 154 17% 55%;
+--mmp-ui-green-h: 154;
+--mmp-ui-green-s: 17%;
+--mmp-ui-green-l: 55%;
+--mmp-ui-green-rgb: 122 157 142;
+--mmp-ui-green-r: 122;
+--mmp-ui-green-g: 157;
+--mmp-ui-green-b: 142;
+
+/* MMP UI Green - Ultra Light */
+--mmp-ui-green-ultra-light: hsl(154, 17%, 55%);
+--mmp-ui-green-ultra-light-hex: #7a9d8e;
+--mmp-ui-green-ultra-light-hsl: 154 17% 55%;
+--mmp-ui-green-ultra-light-h: 154;
+--mmp-ui-green-ultra-light-s: 17%;
+--mmp-ui-green-ultra-light-l: 55%;
+
+/* MMP UI Green - Light */
+--mmp-ui-green-light: hsl(154, 33%, 77%);
+--mmp-ui-green-light-hex: #b3d8c8;
+--mmp-ui-green-light-hsl: 154 33% 77%;
+--mmp-ui-green-light-h: 154;
+--mmp-ui-green-light-s: 33%;
+--mmp-ui-green-light-l: 77%;
+
+/* MMP UI Green - Semi Light */
+--mmp-ui-green-semi-light: hsl(154, 13%, 53%);
+--mmp-ui-green-semi-light-hex: #759889;
+--mmp-ui-green-semi-light-hsl: 154 13% 53%;
+--mmp-ui-green-semi-light-h: 154;
+--mmp-ui-green-semi-light-s: 13%;
+--mmp-ui-green-semi-light-l: 53%;
+
+/* MMP UI Green - Semi Dark */
+--mmp-ui-green-semi-dark: hsl(158, 33%, 19%);
+--mmp-ui-green-semi-dark-hex: #214236;
+--mmp-ui-green-semi-dark-hsl: 158 33% 19%;
+--mmp-ui-green-semi-dark-h: 158;
+--mmp-ui-green-semi-dark-s: 33%;
+--mmp-ui-green-semi-dark-l: 19%;
+
+/* MMP UI Green - Dark */
+--mmp-ui-green-dark: hsl(161, 74%, 9%);
+--mmp-ui-green-dark-hex: #06281d;
+--mmp-ui-green-dark-hsl: 161 74% 9%;
+--mmp-ui-green-dark-h: 161;
+--mmp-ui-green-dark-s: 74%;
+--mmp-ui-green-dark-l: 9%;
+
+/* MMP UI Green - Ultra Dark */
+--mmp-ui-green-ultra-dark: hsl(144, 100%, 1%);
+--mmp-ui-green-ultra-dark-hex: #000502;
+--mmp-ui-green-ultra-dark-hsl: 144 100% 1%;
+--mmp-ui-green-ultra-dark-h: 144;
+--mmp-ui-green-ultra-dark-s: 100%;
+--mmp-ui-green-ultra-dark-l: 1%;
+
+/* MMP UI Green - Hover */
+--mmp-ui-green-hover: hsl(155, 22%, 67%);
+--mmp-ui-green-hover-hex: #98bcad;
+--mmp-ui-green-hover-hsl: 155 22% 67%;
+--mmp-ui-green-hover-h: 155;
+--mmp-ui-green-hover-s: 22%;
+--mmp-ui-green-hover-l: 67%;
+
+/* ============================================
+MMP OFF-WHITE - Complete Shade System (Base)
+============================================ */
+
+/* MMP Off-White - Main */
+--mmp-offwhite: #f8f8f8;
+--mmp-offwhite-hex: #f8f8f8;
+--mmp-offwhite-hsl: 0 0% 97%;
+--mmp-offwhite-h: 0;
+--mmp-offwhite-s: 0%;
+--mmp-offwhite-l: 97%;
+--mmp-offwhite-rgb: 248 248 248;
+--mmp-offwhite-r: 248;
+--mmp-offwhite-g: 248;
+--mmp-offwhite-b: 248;
+
+/* MMP Off-White - Ultra Light */
+--mmp-offwhite-ultra-light: hsl(0, 0%, 99%);
+--mmp-offwhite-ultra-light-hex: #fcfcfc;
+--mmp-offwhite-ultra-light-hsl: 0 0% 99%;
+--mmp-offwhite-ultra-light-h: 0;
+--mmp-offwhite-ultra-light-s: 0%;
+--mmp-offwhite-ultra-light-l: 99%;
+
+/* MMP Off-White - Light */
+--mmp-offwhite-light: hsl(0, 0%, 98%);
+--mmp-offwhite-light-hex: #fafafa;
+--mmp-offwhite-light-hsl: 0 0% 98%;
+--mmp-offwhite-light-h: 0;
+--mmp-offwhite-light-s: 0%;
+--mmp-offwhite-light-l: 98%;
+
+/* MMP Off-White - Semi Light */
+--mmp-offwhite-semi-light: hsl(0, 0%, 97.5%);
+--mmp-offwhite-semi-light-hex: #f9f9f9;
+--mmp-offwhite-semi-light-hsl: 0 0% 97.5%;
+--mmp-offwhite-semi-light-h: 0;
+--mmp-offwhite-semi-light-s: 0%;
+--mmp-offwhite-semi-light-l: 97.5%;
+
+/* MMP Off-White - Semi Dark */
+--mmp-offwhite-semi-dark: hsl(0, 0%, 90%);
+--mmp-offwhite-semi-dark-hex: #e6e6e6;
+--mmp-offwhite-semi-dark-hsl: 0 0% 90%;
+--mmp-offwhite-semi-dark-h: 0;
+--mmp-offwhite-semi-dark-s: 0%;
+--mmp-offwhite-semi-dark-l: 90%;
+
+/* MMP Off-White - Dark */
+--mmp-offwhite-dark: hsl(0, 0%, 85%);
+--mmp-offwhite-dark-hex: #d9d9d9;
+--mmp-offwhite-dark-hsl: 0 0% 85%;
+--mmp-offwhite-dark-h: 0;
+--mmp-offwhite-dark-s: 0%;
+--mmp-offwhite-dark-l: 85%;
+
+/* MMP Off-White - Ultra Dark */
+--mmp-offwhite-ultra-dark: hsl(0, 0%, 75%);
+--mmp-offwhite-ultra-dark-hex: #bfbfbf;
+--mmp-offwhite-ultra-dark-hsl: 0 0% 75%;
+--mmp-offwhite-ultra-dark-h: 0;
+--mmp-offwhite-ultra-dark-s: 0%;
+--mmp-offwhite-ultra-dark-l: 75%;
+
+/* MMP Off-White - Hover */
+--mmp-offwhite-hover: hsl(0, 0%, 95%);
+--mmp-offwhite-hover-hex: #f2f2f2;
+--mmp-offwhite-hover-hsl: 0 0% 95%;
+--mmp-offwhite-hover-h: 0;
+--mmp-offwhite-hover-s: 0%;
+--mmp-offwhite-hover-l: 95%;
+
+
+/* ============================================
+MMP GRAY - Complete Shade System (Neutral)
+============================================ */
+
+/* MMP Gray - Main */
+--mmp-gray: #9f9ea5;
+--mmp-gray-hex: #9f9ea5;
+--mmp-gray-hsl: 249 4% 63%;
+--mmp-gray-h: 249;
+--mmp-gray-s: 4%;
+--mmp-gray-l: 63%;
+--mmp-gray-rgb: 159 158 165;
+--mmp-gray-r: 159;
+--mmp-gray-g: 158;
+--mmp-gray-b: 165;
+
+/* MMP Gray - Ultra Light */
+--mmp-gray-ultra-light: hsl(249, 4%, 95%);
+--mmp-gray-ultra-light-hex: #f2f2f3;
+--mmp-gray-ultra-light-hsl: 249 4% 95%;
+--mmp-gray-ultra-light-h: 249;
+--mmp-gray-ultra-light-s: 4%;
+--mmp-gray-ultra-light-l: 95%;
+
+/* MMP Gray - Light */
+--mmp-gray-light: hsl(249, 4%, 85%);
+--mmp-gray-light-hex: #d9d8db;
+--mmp-gray-light-hsl: 249 4% 85%;
+--mmp-gray-light-h: 249;
+--mmp-gray-light-s: 4%;
+--mmp-gray-light-l: 85%;
+
+/* MMP Gray - Semi Light */
+--mmp-gray-semi-light: hsl(249, 4%, 75%);
+--mmp-gray-semi-light-hex: #c1c0c4;
+--mmp-gray-semi-light-hsl: 249 4% 75%;
+--mmp-gray-semi-light-h: 249;
+--mmp-gray-semi-light-s: 4%;
+--mmp-gray-semi-light-l: 75%;
+
+/* MMP Gray - Semi Dark */
+--mmp-gray-semi-dark: hsl(249, 4%, 45%);
+--mmp-gray-semi-dark-hex: #737275;
+--mmp-gray-semi-dark-hsl: 249 4% 45%;
+--mmp-gray-semi-dark-h: 249;
+--mmp-gray-semi-dark-s: 4%;
+--mmp-gray-semi-dark-l: 45%;
+
+/* MMP Gray - Dark */
+--mmp-gray-dark: hsl(249, 4%, 30%);
+--mmp-gray-dark-hex: #4d4c4f;
+--mmp-gray-dark-hsl: 249 4% 30%;
+--mmp-gray-dark-h: 249;
+--mmp-gray-dark-s: 4%;
+--mmp-gray-dark-l: 30%;
+
+/* MMP Gray - Ultra Dark */
+--mmp-gray-ultra-dark: hsl(249, 4%, 15%);
+--mmp-gray-ultra-dark-hex: #262527;
+--mmp-gray-ultra-dark-hsl: 249 4% 15%;
+--mmp-gray-ultra-dark-h: 249;
+--mmp-gray-ultra-dark-s: 4%;
+--mmp-gray-ultra-dark-l: 15%;
+
+/* MMP Gray - Hover */
+--mmp-gray-hover: hsl(249, 4%, 58%);
+--mmp-gray-hover-hex: #949399;
+--mmp-gray-hover-hsl: 249 4% 58%;
+--mmp-gray-hover-h: 249;
+--mmp-gray-hover-s: 4%;
+--mmp-gray-hover-l: 58%;
+
+/* === MMP Fallback Aliases (theme-first resolution) === */
+--mmp-text: var(--text, #1a1a1a);
+--mmp-heading: var(--heading, #000000);
+--mmp-muted: var(--muted, #6c757d);
+--mmp-border-color: var(--border-color, #dcdcdc);
+--mmp-background: var(--background, #ffffff);
+--mmp-surface: var(--surface, #f9f9f9);
+--mmp-link: var(--link-color, #0050a2);
+--mmp-hover: var(--link-hover-color, #003f7f);
+
+/* === Rotary Brand Colors (RI Enforced Palette) === */
+
+/* Rotary Royal Blue */
+--rotary-royal-blue: #17458f;
+--rotary-royal-blue-hex: #17458f;
+--rotary-royal-blue-hsl: 217 72% 33%;
+--rotary-royal-blue-h: 217;
+--rotary-royal-blue-s: 72%;
+--rotary-royal-blue-l: 33%;
+--rotary-royal-blue-rgb: 23 69 143;
+--rotary-royal-blue-r: 23;
+--rotary-royal-blue-g: 69;
+--rotary-royal-blue-b: 143;
+
+/* Rotary Gold */
+--rotary-gold: #f7a81b;
+--rotary-gold-hex: #f7a81b;
+--rotary-gold-hsl: 38 92% 54%;
+--rotary-gold-h: 38;
+--rotary-gold-s: 92%;
+--rotary-gold-l: 54%;
+--rotary-gold-rgb: 247 168 27;
+--rotary-gold-r: 247;
+--rotary-gold-g: 168;
+--rotary-gold-b: 27;
+
+/* Azure */
+--azure: #0069c8;
+--azure-hex: #0069c8;
+--azure-hsl: 207 100% 39%;
+--azure-h: 207;
+--azure-s: 100%;
+--azure-l: 39%;
+--azure-rgb: 0 105 200;
+--azure-r: 0;
+--azure-g: 105;
+--azure-b: 200;
+
+/* Sky Blue */
+--sky-blue: #00a2e0;
+--sky-blue-hex: #00a2e0;
+--sky-blue-hsl: 197 100% 44%;
+--sky-blue-h: 197;
+--sky-blue-s: 100%;
+--sky-blue-l: 44%;
+--sky-blue-rgb: 0 162 224;
+--sky-blue-r: 0;
+--sky-blue-g: 162;
+--sky-blue-b: 224;
+
+/* Cranberry */
+--cranberry: #d41367;
+--cranberry-hex: #d41367;
+--cranberry-hsl: 334 82% 45%;
+--cranberry-h: 334;
+--cranberry-s: 82%;
+--cranberry-l: 45%;
+--cranberry-rgb: 212 19 103;
+--cranberry-r: 212;
+--cranberry-g: 19;
+--cranberry-b: 103;
+
+/* Cardinal */
+--cardinal: #e02927;
+--cardinal-hex: #e02927;
+--cardinal-hsl: 1 74% 52%;
+--cardinal-h: 1;
+--cardinal-s: 74%;
+--cardinal-l: 52%;
+--cardinal-rgb: 224 41 39;
+--cardinal-r: 224;
+--cardinal-g: 41;
+--cardinal-b: 39;
+
+/* Turquoise */
+--turquoise: #00adbb;
+--turquoise-hex: #00adbb;
+--turquoise-hsl: 184 100% 37%;
+--turquoise-h: 184;
+--turquoise-s: 100%;
+--turquoise-l: 37%;
+--turquoise-rgb: 0 173 187;
+--turquoise-r: 0;
+--turquoise-g: 173;
+--turquoise-b: 187;
+
+/* Orange */
+--orange: #ff7600;
+--orange-hex: #ff7600;
+--orange-hsl: 28 100% 50%;
+--orange-h: 28;
+--orange-s: 100%;
+--orange-l: 50%;
+--orange-rgb: 255 118 0;
+--orange-r: 255;
+--orange-g: 118;
+--orange-b: 0;
+
+/* Violet */
+--violet: #901f93;
+--violet-hex: #901f93;
+--violet-hsl: 298 65% 35%;
+--violet-h: 298;
+--violet-s: 65%;
+--violet-l: 35%;
+--violet-rgb: 144 31 147;
+--violet-r: 144;
+--violet-g: 31;
+--violet-b: 147;
+
+/* Grass */
+--grass: #019739;
+--grass-hex: #019739;
+--grass-hsl: 143 98% 30%;
+--grass-h: 143;
+--grass-s: 98%;
+--grass-l: 30%;
+--grass-rgb: 1 151 57;
+--grass-r: 1;
+--grass-g: 151;
+--grass-b: 57;
+
+/* Powder Blue */
+--powder-blue: #b9d9eb;
+--powder-blue-hex: #b9d9eb;
+--powder-blue-hsl: 204 54% 82%;
+--powder-blue-h: 204;
+--powder-blue-s: 54%;
+--powder-blue-l: 82%;
+--powder-blue-rgb: 185 217 235;
+--powder-blue-r: 185;
+--powder-blue-g: 217;
+--powder-blue-b: 235;
+
+/* Moss */
+--moss: #a7aca2;
+--moss-hex: #a7aca2;
+--moss-hsl: 90 6% 67%;
+--moss-h: 90;
+--moss-s: 6%;
+--moss-l: 67%;
+--moss-rgb: 167 172 162;
+--moss-r: 167;
+--moss-g: 172;
+--moss-b: 162;
+
+/* Lavender */
+--lavender: #c6bcd0;
+--lavender-hex: #c6bcd0;
+--lavender-hsl: 272 18% 77%;
+--lavender-h: 272;
+--lavender-s: 18%;
+--lavender-l: 77%;
+--lavender-rgb: 198 188 208;
+--lavender-r: 198;
+--lavender-g: 188;
+--lavender-b: 208;
+
+/* Taupe */
+--taupe: #d9c89e;
+--taupe-hex: #d9c89e;
+--taupe-hsl: 41 42% 74%;
+--taupe-h: 41;
+--taupe-s: 42%;
+--taupe-l: 74%;
+--taupe-rgb: 217 200 158;
+--taupe-r: 217;
+--taupe-g: 200;
+--taupe-b: 158;
+
+/* Mist */
+--mist: #9ba4b4;
+--mist-hex: #9ba4b4;
+--mist-hsl: 218 17% 65%;
+--mist-h: 218;
+--mist-s: 17%;
+--mist-l: 65%;
+--mist-rgb: 155 164 180;
+--mist-r: 155;
+--mist-g: 164;
+--mist-b: 180;
+
+/* Slate */
+--slate: #657f99;
+--slate-hex: #657f99;
+--slate-hsl: 211 21% 50%;
+--slate-h: 211;
+--slate-s: 21%;
+--slate-l: 50%;
+--slate-rgb: 101 127 153;
+--slate-r: 101;
+--slate-g: 127;
+--slate-b: 153;
+
+/* Charcoal */
+--charcoal: #54565a;
+--charcoal-hex: #54565a;
+--charcoal-hsl: 220 3% 35%;
+--charcoal-h: 220;
+--charcoal-s: 3%;
+--charcoal-l: 35%;
+--charcoal-rgb: 84 86 90;
+--charcoal-r: 84;
+--charcoal-g: 86;
+--charcoal-b: 90;
+
+/* Pewter */
+--pewter: #898a8d;
+--pewter-hex: #898a8d;
+--pewter-hsl: 225 2% 55%;
+--pewter-h: 225;
+--pewter-s: 2%;
+--pewter-l: 55%;
+--pewter-rgb: 137 138 141;
+--pewter-r: 137;
+--pewter-g: 138;
+--pewter-b: 141;
+
+/* Smoke */
+--smoke: #b1b1b1;
+--smoke-hex: #b1b1b1;
+--smoke-hsl: 0 0% 69%;
+--smoke-h: 0;
+--smoke-s: 0%;
+--smoke-l: 69%;
+--smoke-rgb: 177 177 177;
+--smoke-r: 177;
+--smoke-g: 177;
+--smoke-b: 177;
+
+/* Silver */
+--silver: #d0cfcd;
+--silver-hex: #d0cfcd;
+--silver-hsl: 40 3% 82%;
+--silver-h: 40;
+--silver-s: 3%;
+--silver-l: 82%;
+--silver-rgb: 208 207 205;
+--silver-r: 208;
+--silver-g: 207;
+--silver-b: 205;
+
+/* White */
+--white: #ffffff;
+--white-hex: #ffffff;
+--white-hsl: 0 0% 100%;
+--white-h: 0;
+--white-s: 0%;
+--white-l: 100%;
+--white-rgb: 255 255 255;
+--white-r: 255;
+--white-g: 255;
+--white-b: 255;
+
+/* Black */
+--black: #000000;
+--black-hex: #000000;
+--black-hsl: 0 0% 0%;
+--black-h: 0;
+--black-s: 0%;
+--black-l: 0%;
+--black-rgb: 0 0 0;
+--black-r: 0;
+--black-g: 0;
+--black-b: 0;
+
+/* Storm */
+--storm: #7a6e66;
+--storm-hex: #7a6e66;
+--storm-hsl: 24 9% 45%;
+--storm-h: 24;
+--storm-s: 9%;
+--storm-l: 45%;
+--storm-rgb: 122 110 102;
+--storm-r: 122;
+--storm-g: 110;
+--storm-b: 102;
+
+/* Ash */
+--ash: #968b83;
+--ash-hex: #968b83;
+--ash-hsl: 25 9% 56%;
+--ash-h: 25;
+--ash-s: 9%;
+--ash-l: 56%;
+--ash-rgb: 150 139 131;
+--ash-r: 150;
+--ash-g: 139;
+--ash-b: 131;
+
+/* Platinum */
+--platinum: #bfb7b0;
+--platinum-hex: #bfb7b0;
+--platinum-hsl: 28 11% 72%;
+--platinum-h: 28;
+--platinum-s: 11%;
+--platinum-l: 72%;
+--platinum-rgb: 191 183 176;
+--platinum-r: 191;
+--platinum-g: 183;
+--platinum-b: 176;
+
+/* Cloud */
+--cloud: #d6d1ca;
+--cloud-hex: #d6d1ca;
+--cloud-hsl: 35 14% 83%;
+--cloud-h: 35;
+--cloud-s: 14%;
+--cloud-l: 83%;
+--cloud-rgb: 214 209 202;
+--cloud-r: 214;
+--cloud-g: 209;
+--cloud-b: 202;
+}
