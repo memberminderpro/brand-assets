@@ -97,23 +97,110 @@ Resize via CSS or `width`/`height`; do not stretch or distort. Use the correct l
 
 ---
 
-## MemberMinder Pro primary color palette
+## MemberMinder Pro Brand Assets: Color Palette
 
-Primary palette: the **main shade** of each MMP color system (one per family). Full shade systems (ultra-light, light, semi-light, dark, hover, etc.) are defined in `css/colors.css`.
+This document provides the visual swatches and technical definitions for the MemberMinder Pro color system. All colors are defined as CSS variables in [colors.css](https://github.com/memberminderpro/brand-assets/blob/main/css/colors.css).
 
-| Color        | Role        | Hex       | RGB             | CSS variable   |
-| ------------ | ----------- | --------- | --------------- | --------------- |
-| MMP Blue     | Logo        | `#1e224e` | 30, 34, 78      | `--mmp-blue`   |
-| MMP Red      | Logo        | `#841c30` | 132, 28, 48     | `--mmp-red`    |
-| MMP UI Blue  | Primary     | `#8dafd3` | 141, 175, 211   | `--mmp-ui-blue`|
-| MMP UI Gold  | Secondary   | `#c9a967` | 201, 169, 103   | `--mmp-gold`   |
-| MMP UI Green | Tertiary    | `#7a9d8e` | 122, 157, 142   | `--mmp-ui-green`|
-| MMP Off-White| Base        | `#f8f8f8` | 248, 248, 248   | `--mmp-offwhite`|
-| MMP Gray     | Neutral     | `#9f9ea5` | 159, 158, 165   | `--mmp-gray`   |
+---
+
+### MemberMinder Pro Primary Palette
+The main identity colors used for branding, logos, and primary UI elements.
+
+| Swatch | Color Name | Role | Hex Code | CSS Variable |
+| :---: | :--- | :--- | :--- | :--- |
+| ![](https://singlecolorimage.com/get/1e224e/20x20) | MMP Blue | Logo | `#1e224e` | `--mmp-blue` |
+| ![](https://singlecolorimage.com/get/841c30/20x20) | MMP Red | Logo | `#841c30` | `--mmp-red` |
+| ![](https://singlecolorimage.com/get/8dafd3/20x20) | MMP UI Blue | Primary | `#8dafd3` | `--mmp-ui-blue` |
+| ![](https://singlecolorimage.com/get/c9a967/20x20) | MMP Gold | Secondary | `#c9a967` | `--mmp-gold` |
+| ![](https://singlecolorimage.com/get/7a9d8e/20x20) | MMP UI Green | Tertiary | `#7a9d8e` | `--mmp-ui-green` |
+| ![](https://singlecolorimage.com/get/f8f8f8/20x20) | MMP Off-White | Base | `#f8f8f8` | `--mmp-offwhite` |
+| ![](https://singlecolorimage.com/get/9f9ea5/20x20) | MMP Gray | Neutral | `#9f9ea5` | `--mmp-gray` |
+
+---
+
+### MMP Blue Shade System
+| Swatch | Weight | Hex Code | CSS Variable |
+| :---: | :--- | :--- | :--- |
+| ![](https://singlecolorimage.com/get/eff0f7/20x20) | Ultra Light | `#eff0f7` | `--mmp-blue-ultra-light` |
+| ![](https://singlecolorimage.com/get/cfd2e6/20x20) | Light | `#cfd2e6` | `--mmp-blue-light` |
+| ![](https://singlecolorimage.com/get/6a72b0/20x20) | Semi Light | `#6a72b0` | `--mmp-blue-semi-light` |
+| ![](https://singlecolorimage.com/get/1e224e/20x20) | **Main** | `#1e224e` | `--mmp-blue` |
+| ![](https://singlecolorimage.com/get/171a39/20x20) | Hover | `#171a39` | `--mmp-blue-hover` |
+| ![](https://singlecolorimage.com/get/151737/20x20) | Semi Dark | `#151737` | `--mmp-blue-semi-dark` |
+| ![](https://singlecolorimage.com/get/0e1025/20x20) | Dark | `#0e1025` | `--mmp-blue-dark` |
+| ![](https://singlecolorimage.com/get/070812/20x20) | Ultra Dark | `#070812` | `--mmp-blue-ultra-dark` |
+
+### MMP Red Shade System
+| Swatch | Weight | Hex Code | CSS Variable |
+| :---: | :--- | :--- | :--- |
+| ![](https://singlecolorimage.com/get/fce9ed/20x20) | Ultra Light | `#fce9ed` | `--mmp-red-ultra-light` |
+| ![](https://singlecolorimage.com/get/f3bcc9/20x20) | Light | `#f3bcc9` | `--mmp-red-light` |
+| ![](https://singlecolorimage.com/get/db4d6b/20x20) | Semi Light | `#db4d6b` | `--mmp-red-semi-light` |
+| ![](https://singlecolorimage.com/get/841c30/20x20) | **Main** | `#841c30` | `--mmp-red` |
+| ![](https://singlecolorimage.com/get/6f1728/20x20) | Hover | `#6f1728` | `--mmp-red-hover` |
+| ![](https://singlecolorimage.com/get/5d1423/20x20) | Semi Dark | `#5d1423` | `--mmp-red-semi-dark` |
+| ![](https://singlecolorimage.com/get/3f0e18/20x20) | Dark | `#3f0e18` | `--mmp-red-dark` |
+| ![](https://singlecolorimage.com/get/22070c/20x20) | Ultra Dark | `#22070c` | `--mmp-red-ultra-dark` |
+
+### MMP UI Blue Shade System
+| Swatch | Weight | Hex Code | CSS Variable |
+| :---: | :--- | :--- | :--- |
+| ![](https://singlecolorimage.com/get/e1f0ff/20x20) | Ultra Light | `#e1f0ff` | `--mmp-ui-blue-ultra-light` |
+| ![](https://singlecolorimage.com/get/afd2f7/20x20) | Light | `#afd2f7` | `--mmp-ui-blue-light` |
+| ![](https://singlecolorimage.com/get/7293b5/20x20) | Semi Light | `#7293b5` | `--mmp-ui-blue-semi-light` |
+| ![](https://singlecolorimage.com/get/8dafd3/20x20) | **Main** | `#8dafd3` | `--mmp-ui-blue` |
+| ![](https://singlecolorimage.com/get/b0d3f8/20x20) | Hover | `#b0d3f8` | `--mmp-ui-blue-hover` |
+| ![](https://singlecolorimage.com/get/1e3c5b/20x20) | Semi Dark | `#1e3c5b` | `--mmp-ui-blue-semi-dark` |
+| ![](https://singlecolorimage.com/get/04233f/20x20) | Dark | `#04233f` | `--mmp-ui-blue-dark` |
+
+### MMP Gold Shade System
+| Swatch | Weight | Hex Code | CSS Variable |
+| :---: | :--- | :--- | :--- |
+| ![](https://singlecolorimage.com/get/ffecbe/20x20) | Ultra Light | `#ffecbe` | `--mmp-gold-ultra-light` |
+| ![](https://singlecolorimage.com/get/eac986/20x20) | Light | `#eac986` | `--mmp-gold-light` |
+| ![](https://singlecolorimage.com/get/c9a967/20x20) | **Main** | `#c9a967` | `--mmp-gold` |
+| ![](https://singlecolorimage.com/get/eecd8a/20x20) | Hover | `#eecd8a` | `--mmp-gold-hover` |
+| ![](https://singlecolorimage.com/get/aa8a48/20x20) | Semi Light | `#aa8a48` | `--mmp-gold-semi-light` |
+| ![](https://singlecolorimage.com/get/4e3600/20x20) | Semi Dark | `#4e3600` | `--mmp-gold-semi-dark` |
+| ![](https://singlecolorimage.com/get/2f1e00/20x20) | Dark | `#2f1e00` | `--mmp-gold-dark` |
+
+### MMP UI Green Shade System
+| Swatch | Weight | Hex Code | CSS Variable |
+| :---: | :--- | :--- | :--- |
+| ![](https://singlecolorimage.com/get/eaf2ee/20x20) | Ultra Light | `#eaf2ee` | `--mmp-ui-green-ultra-light` |
+| ![](https://singlecolorimage.com/get/c6d9d0/20x20) | Light | `#c6d9d0` | `--mmp-ui-green-light` |
+| ![](https://singlecolorimage.com/get/7a9d8e/20x20) | **Main** | `#7a9d8e` | `--mmp-ui-green` |
+| ![](https://singlecolorimage.com/get/87b3a0/20x20) | Hover | `#87b3a0` | `--mmp-ui-green-hover` |
+| ![](https://singlecolorimage.com/get/5a7a6c/20x20) | Semi Dark | `#5a7a6c` | `--mmp-ui-green-semi-dark` |
+| ![](https://singlecolorimage.com/get/2b3b34/20x20) | Dark | `#2b3b34` | `--mmp-ui-green-dark` |
+
+### MMP Gray & Off-White Shades
+| Swatch | Weight | Hex Code | CSS Variable |
+| :---: | :--- | :--- | :--- |
+| ![](https://singlecolorimage.com/get/ffffff/20x20) | Pure White | `#ffffff` | `--mmp-white` |
+| ![](https://singlecolorimage.com/get/f8f8f8/20x20) | Off-White Main | `#f8f8f8` | `--mmp-offwhite` |
+| ![](https://singlecolorimage.com/get/ebebeb/20x20) | Off-White Dark | `#ebebeb` | `--mmp-offwhite-dark` |
+| ![](https://singlecolorimage.com/get/9f9ea5/20x20) | Gray Main | `#9f9ea5` | `--mmp-gray` |
+| ![](https://singlecolorimage.com/get/717077/20x20) | Gray Dark | `#717077` | `--mmp-gray-dark` |
+| ![](https://singlecolorimage.com/get/1a1a1a/20x20) | Pure Black | `#1a1a1a` | `--mmp-black` |
 
 ---
 
 ## Rotary International
+
+### Rotary International Official Palette
+Used for Rotary-specific components and licensed vendor materials.
+
+| Swatch | Color Name | Hex Code | CSS Variable |
+| :---: | :--- | :--- | :--- |
+| ![](https://singlecolorimage.com/get/17458f/20x20) | Royal Blue | `#17458f` | `--rotary-royal-blue` |
+| ![](https://singlecolorimage.com/get/f7a81b/20x20) | Gold | `#f7a81b` | `--rotary-gold` |
+| ![](https://singlecolorimage.com/get/0069c8/20x20) | Azure | `#0069c8` | `--azure` |
+| ![](https://singlecolorimage.com/get/00a2e0/20x20) | Sky Blue | `#00a2e0` | `--sky-blue` |
+| ![](https://singlecolorimage.com/get/d41367/20x20) | Cranberry | `#d41367` | `--cranberry` |
+| ![](https://singlecolorimage.com/get/e02927/20x20) | Cardinal | `#e02927` | `--cardinal` |
+| ![](https://singlecolorimage.com/get/00adbb/20x20) | Turquoise | `#00adbb` | `--turquoise` |
+| ![](https://singlecolorimage.com/get/ff7600/20x20) | Orange | `#ff7600` | `--orange` |
 
 Rotary International brand colors are provided in this repository **only as a convenience**, and only in the context of Member Minder Pro being a licensed, authorized vendor of Rotary International.
 
